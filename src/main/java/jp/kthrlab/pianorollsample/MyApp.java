@@ -21,6 +21,12 @@ public class MyApp extends HorizontalPAppletCmxPianoRoll {
     IMusicData musicData;
 
     @Override
+    public void draw() {
+        super.draw();
+
+    }
+
+    @Override
     public void setup() {
         super.setup();
 //        hideDefaultTitleBar();
